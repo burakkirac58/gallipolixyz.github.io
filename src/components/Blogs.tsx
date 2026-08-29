@@ -13,6 +13,12 @@ interface Blog {
 
 const blogs: Blog[] = [
     {
+    slug: 'tryhackme-wgel',
+    title: 'TryHackMe — Wgel Writeup',
+    excerpt: 'Dizin taraması, gizli bir SSH anahtarı ve NOPASSWD wget yetkisi kullanılarak root yetkisine ulaşılan Wgel makinesinin çözümü.',
+    author: 'Burak Kıraç',
+  },
+    {
     slug: 'code-challenge1-writeup',
     title: 'Code Challenge Write-Up: Broken Object Level Authorization (BOLA)',
     excerpt: 'BOLA zafiyeti açıklanmış ve Code Challenge çözüm write-upı hazırlanmıştır.',
